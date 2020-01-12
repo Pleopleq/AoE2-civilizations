@@ -11,7 +11,7 @@ class UI {
         <ul>
             <li><strong>${civ.name}</strong></li>
             <li>Expansion: ${civ.expansion}</li>
-            <li><button onclick="api.getUnit('${civ.unique_unit[0]}')" class="blockContainer__civ-uniqueUnit">Unique unit</button></li>
+            <li><button onclick="api.getUnit('${civ.unique_unit[0]}')" class="blockContainer__civ-uniqueUnit"><a href="#">Unique unit</a></button></li>
         </ul>
         `
     });

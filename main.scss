@@ -1,6 +1,7 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+$text-color: white;
 
 .blockInstructions{
     margin-bottom: 1rem;
@@ -13,16 +14,18 @@ body{
     grid-gap: 14px;
     .blockContainer__civ {
         background-color: rebeccapurple;
-        color: whitesmoke;
+        color: $text-color;
         .blockContainer__civ-uniqueUnit{
-            background-color: inherit;
+            background-color: rebeccapurple ;
             border: none;
-            border-bottom:1px solid white;
-            color: inherit;
+            color: $text-color;
+        }
+        :visited{
+            color: $text-color;
         }
     }
     .blockContainer__unit {
-        background-color: white;
+        background-color: $text-color;
         color: black;
     }
 }

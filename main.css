@@ -14,13 +14,15 @@ body {
 }
 .blockContainer .blockContainer__civ {
   background-color: rebeccapurple;
-  color: whitesmoke;
+  color: white;
 }
 .blockContainer .blockContainer__civ .blockContainer__civ-uniqueUnit {
-  background-color: inherit;
+  background-color: rebeccapurple;
   border: none;
-  border-bottom: 1px solid white;
-  color: inherit;
+  color: white;
+}
+.blockContainer .blockContainer__civ :visited {
+  color: white;
 }
 .blockContainer .blockContainer__unit {
   background-color: white;
