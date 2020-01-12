@@ -1,0 +1,32 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.blockInstructions{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.blockContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 14px;
+    .blockContainer__civ {
+        background-color: rebeccapurple;
+        color: whitesmoke;
+        .blockContainer__civ-uniqueUnit{
+            background-color: inherit;
+            border: none;
+            border-bottom:1px solid white;
+            color: inherit;
+        }
+    }
+    .blockContainer__unit {
+        background-color: white;
+        color: black;
+    }
+}
+
+
+
+
