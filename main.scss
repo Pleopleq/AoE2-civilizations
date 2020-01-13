@@ -19,9 +19,9 @@ $text-color: white;
             background-color: rebeccapurple ;
             border: none;
             color: $text-color;
-        }
-        :visited{
-            color: $text-color;
+            :visited{
+                color: $text-color;
+            }
         }
     }
     .blockContainer__unit {

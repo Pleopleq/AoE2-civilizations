@@ -21,7 +21,7 @@ body {
   border: none;
   color: white;
 }
-.blockContainer .blockContainer__civ :visited {
+.blockContainer .blockContainer__civ .blockContainer__civ-uniqueUnit :visited {
   color: white;
 }
 .blockContainer .blockContainer__unit {
